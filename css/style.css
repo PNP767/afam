@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bg-color: #23b584;
+    --header-color: #00422c;
+
+    ul>li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nosifer-regular {
+        font-family: "Nosifer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* <weight>: Use a value from 400 to 700 */
+    /* <uniquifier>: Use a unique and descriptive class name */
+    .gelasio-uniquifier {
+        font-family: "Gelasio", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .viga-regular {
+        font-family: "Viga", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: #333;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+header .left {}
+
+header .left a {
+    align-items: center;
+}
+
+header .left a img {
+    height: 50px;
+    display: inline;
+    align-items: center;
+    margin-top: -20px;
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+header .right ul {
+    display: flex;
+}
+
+header .right ul li {
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+main {}
+
+main #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #home ul {
+    display: flex;
+    align-items: center;
+}
+
+main #home ul li {}
+
+main #home ul li h1.huda_center {
+    font-size: 70px;
+    font-family: "Viga", sans-serif;
+    line-height: 30px;
+    color: #000;
+}
+
+main #home ul li h1 span.h {
+    font-family: "Nosifer", sans-serif;
+    color: var(--header-color);
+    font-size: 400px;
+    font-weight: 900;
+    margin-bottom: 1000px;
+    /* line-height: 90px; */
+}
+
+main #home ul li h1 .huce {
+    color: #fff;
+}
+
+main #home ul li h1 .huce.gap {
+    /* margin-left: 350px; */
+    line-height: 1.5;
+}
+
+main #home p {
+    font-family: "Gelasio", serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+main #home button {
+    background-color: var(--bg-color);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 40px;
+    margin-top: 30px;
+    /* margin-left: 0px; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #fff;
+}
+
+main #home button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+footer {}
+
+footer img {
+    width: 100%;
+    height: 10%;
+}
+
+footer .top {
+    line-height: 35px;
+    display: flex;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+footer .top .social_media {}
+
+footer .top .social_media h2 {}
+
+footer .top .social_media ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer .top .social_media ul li {}
+
+footer .top .social_media ul li a {}
+
+footer .top .social_media ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+footer .top .use-cases {}
+
+footer .top .use-cases h2 {}
+
+footer .top .use-cases ul {
+    margin-top: 20px;
+}
+
+footer .top .use-cases ul li {}
+
+footer .top .use-cases ul li a {}
+
+footer .top .explore {}
+
+footer .top .explore h2 {}
+
+footer .top .explore ul {
+    margin-top: 20px;
+}
+
+footer .top .explore ul li {}
+
+footer .top .explore ul li a {}
+
+footer .top .resources {}
+
+footer .top .resources h2 {}
+
+footer .top .resources ul {
+    margin-top: 20px;
+}
+
+footer .top .resources ul li {}
+
+footer .top .resources ul li a {}
+
+footer .bottom {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer .bottom p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+footer .bottom .contact {}
+
+footer .bottom .contact h2 {}
+
+footer .bottom .contact ul {}
+
+footer .bottom .contact ul li {}
