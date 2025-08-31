@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bg-color: #23b584;
+    --header-color: #00422c;
+    --heading: #3B945E;
+
+    ul>li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Yeseva+One&display=swap');
+
+    .yeseva-one-regular {
+        font-family: "Yeseva One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .holtwood-one-sc-regular {
+        font-family: "Holtwood One SC", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .nosifer-regular {
+        font-family: "Nosifer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* <weight>: Use a value from 400 to 700 */
+    /* <uniquifier>: Use a unique and descriptive class name */
+    .gelasio-uniquifier {
+        font-family: "Gelasio", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .viga-regular {
+        font-family: "Viga", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    height: 100vh;
+    background: #EBEAEA;
+    /* background-image: url("../img/Desert-PNG-Picture\ 1.png"); */
+
+    background-repeat: no-repeat;
+    background-size: 80% 100vh;
+    background-position: 55% 0%;
+    background-attachment: scroll;
+
+    /* background-image: url("../img/Vector 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    background-position: -0% 550%;
+    background-attachment: scroll; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+header .left {}
+
+header .left a {
+    align-items: center;
+}
+
+header .left a img {
+    height: 50px;
+    display: inline;
+    align-items: center;
+    margin-top: -20px;
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+header .right ul {
+    display: flex;
+}
+
+header .right ul li {
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+/* ======================================== */
+
+main {
+    height: 90vh;
+}
+
+/* ======================================== */
+
+
+footer {}
+
+footer img {
+    width: 100%;
+    height: 10%;
+}
+
+footer .top {
+    line-height: 35px;
+    display: flex;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+footer .top .social_media {}
+
+footer .top .social_media h2 {}
+
+footer .top .social_media ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer .top .social_media ul li {}
+
+footer .top .social_media ul li a {}
+
+footer .top .social_media ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+footer .top .use-cases {}
+
+footer .top .use-cases h2 {}
+
+footer .top .use-cases ul {
+    margin-top: 20px;
+}
+
+footer .top .use-cases ul li {}
+
+footer .top .use-cases ul li a {}
+
+footer .top .explore {}
+
+footer .top .explore h2 {}
+
+footer .top .explore ul {
+    margin-top: 20px;
+}
+
+footer .top .explore ul li {}
+
+footer .top .explore ul li a {}
+
+footer .top .resources {}
+
+footer .top .resources h2 {}
+
+footer .top .resources ul {
+    margin-top: 20px;
+}
+
+footer .top .resources ul li {}
+
+footer .top .resources ul li a {}
+
+footer .bottom {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: 2b2b2b; */
+}
+
+footer .bottom p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+footer .bottom .contact {}
+
+footer .bottom .contact h2 {}
+
+footer .bottom .contact ul {}
+
+footer .bottom .contact ul li {}
