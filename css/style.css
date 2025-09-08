@@ -55,14 +55,10 @@ header {
     width: 80%;
     margin: 0 auto;
     border-radius: 50px;
-    z-index: 1;
     margin-top: 20px;
 }
 
-header .left {
-    background: #000;
-    height: 100px;
-}
+header .left {}
 
 header .left a {
     align-items: center;
@@ -88,8 +84,13 @@ header .right ul li {
     margin-right: 30px;
     font-size: 24px;
 }
+header .right ul li:last-child {
+    margin-right: 0;
+}
 
-main {}
+main {
+    width: 100%;
+}
 
 main #home {
     display: flex;
@@ -156,7 +157,9 @@ main #home button a {
     font-size: 24px;
 }
 
-footer {}
+footer {
+    width: 100%;
+}
 
 footer img {
     width: 100%;
@@ -190,7 +193,7 @@ footer .top .social_media ul li {}
 footer .top .social_media ul li a {}
 
 footer .top .social_media ul li a img {
-    width: 30px;
+    width: 75%;
     height: 30px;
     margin-right: 10px;
     filter: brightness(0) invert(1);
